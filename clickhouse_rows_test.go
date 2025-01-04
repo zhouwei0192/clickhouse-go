@@ -1,8 +1,8 @@
 package clickhouse
 
 import (
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhouwei0192/clickhouse-go/v2/lib/proto"
 	"strconv"
 	"testing"
 )

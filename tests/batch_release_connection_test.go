@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
 	"github.com/stretchr/testify/require"
+	"github.com/zhouwei0192/clickhouse-go/v2"
+	"github.com/zhouwei0192/clickhouse-go/v2/lib/driver"
 )
 
 func TestBatchReleaseConnection(t *testing.T) {

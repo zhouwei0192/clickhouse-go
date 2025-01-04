@@ -25,9 +25,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/paulmach/orb"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhouwei0192/clickhouse-go/v2"
 )
 
 func TestGeoMultiPolygon(t *testing.T) {

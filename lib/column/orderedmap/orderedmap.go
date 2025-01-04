@@ -2,7 +2,7 @@ package orderedmap
 
 import (
 	"cmp"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/column"
+	"github.com/zhouwei0192/clickhouse-go/v2/lib/column"
 	"slices"
 )
 

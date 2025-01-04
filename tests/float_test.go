@@ -25,8 +25,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhouwei0192/clickhouse-go/v2"
 )
 
 func TestSimpleFloat(t *testing.T) {

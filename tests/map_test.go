@@ -21,14 +21,14 @@ import (
 	"context"
 	"database/sql/driver"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/column"
+	"github.com/zhouwei0192/clickhouse-go/v2/lib/column"
 	"reflect"
 	"testing"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhouwei0192/clickhouse-go/v2"
 )
 
 func TestMap(t *testing.T) {

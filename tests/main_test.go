@@ -22,8 +22,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
+	"github.com/zhouwei0192/clickhouse-go/v2"
 )
 
 const testSet string = "native"

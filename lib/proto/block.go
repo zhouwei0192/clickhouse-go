@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/ClickHouse/ch-go/proto"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/column"
+	"github.com/zhouwei0192/clickhouse-go/v2/lib/column"
 )
 
 type Block struct {

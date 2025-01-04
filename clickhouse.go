@@ -28,10 +28,10 @@ import (
 	_ "time/tzdata"
 
 	chproto "github.com/ClickHouse/ch-go/proto"
-	"github.com/ClickHouse/clickhouse-go/v2/contributors"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/column"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
+	"github.com/zhouwei0192/clickhouse-go/v2/contributors"
+	"github.com/zhouwei0192/clickhouse-go/v2/lib/column"
+	"github.com/zhouwei0192/clickhouse-go/v2/lib/driver"
+	"github.com/zhouwei0192/clickhouse-go/v2/lib/proto"
 )
 
 type Conn = driver.Conn

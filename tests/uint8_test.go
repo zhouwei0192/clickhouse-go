@@ -19,8 +19,8 @@ package tests
 
 import (
 	"context"
-	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/stretchr/testify/require"
+	"github.com/zhouwei0192/clickhouse-go/v2"
 	"testing"
 )
 

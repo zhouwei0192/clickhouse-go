@@ -20,8 +20,8 @@ package tests
 import (
 	"testing"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/stretchr/testify/require"
+	"github.com/zhouwei0192/clickhouse-go/v2"
 	"golang.org/x/net/context"
 )
 

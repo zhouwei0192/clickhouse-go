@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/ClickHouse/clickhouse-go/v2/ext"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhouwei0192/clickhouse-go/v2"
+	"github.com/zhouwei0192/clickhouse-go/v2/ext"
 )
 
 func TestExternalTable(t *testing.T) {

@@ -27,7 +27,7 @@ import (
 
 	"github.com/ClickHouse/ch-go/proto"
 
-	"github.com/ClickHouse/clickhouse-go/v2/lib/timezone"
+	"github.com/zhouwei0192/clickhouse-go/v2/lib/timezone"
 )
 
 var (

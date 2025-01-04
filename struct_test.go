@@ -3,7 +3,7 @@ package clickhouse
 import (
 	"context"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
+	"github.com/zhouwei0192/clickhouse-go/v2/lib/driver"
 	"log"
 	"testing"
 	"time"

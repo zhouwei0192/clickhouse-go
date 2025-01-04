@@ -25,7 +25,7 @@ import (
 	"github.com/ClickHouse/ch-go/proto"
 	"reflect"
 
-	"github.com/ClickHouse/clickhouse-go/v2/lib/binary"
+	"github.com/zhouwei0192/clickhouse-go/v2/lib/binary"
 )
 
 type String struct {

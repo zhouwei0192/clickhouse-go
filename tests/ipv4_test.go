@@ -22,14 +22,14 @@ import (
 	"database/sql/driver"
 	"encoding/binary"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/column"
 	"github.com/stretchr/testify/require"
+	"github.com/zhouwei0192/clickhouse-go/v2/lib/column"
 	"net"
 	"net/netip"
 	"testing"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhouwei0192/clickhouse-go/v2"
 )
 
 func TestSimpleIPv4(t *testing.T) {

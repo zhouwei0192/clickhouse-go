@@ -316,7 +316,7 @@ Available options:
 ## Install
 
 ```sh
-go get -u github.com/ClickHouse/clickhouse-go/v2
+go get -u github.com/zhouwei0192/clickhouse-go/v2
 ```
 
 ## Examples
