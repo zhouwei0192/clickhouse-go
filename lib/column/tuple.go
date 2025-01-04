@@ -564,6 +564,14 @@ func (col *Tuple) AppendRow(v any) error {
 			}
 		}
 		return nil
+	case reflect.Struct:
+		for i := 0; i < value.NumField(); i++ {
+			tmp := value.Field(i).Interface()
+			if err := col.columns[i].AppendRow(tmp); err != nil {
+				return err
+			}
+		}
+		return nil
 	}
 
 	if valuer, ok := v.(driver.Valuer); ok {
